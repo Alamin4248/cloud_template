@@ -1,0 +1,66 @@
+@media (min-width: 1200px) and (max-width: 1500px) { 
+  html {
+    overflow-x: hidden;
+  }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+  html {
+    overflow-x: hidden;
+  }
+  .access-text {
+    padding-left: 30px;
+  }
+  .access .access-text h3 {
+    font-size: 40px;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) { 
+  html {
+    overflow-x: hidden;
+  }
+  .access .access-img img {
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  .testmonial-img img {
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  
+}
+
+
+
+@media (max-width: 767px) { 
+  html {
+    overflow-x: hidden;
+  }
+  .access .access-img img {
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  .testmonial-img img {
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  .slider-area .slider-text h2 {
+    font-size: 35px;
+  }
+  .newsletter-area .section-title h2 {
+    font-size: 30px;
+  }
+  .newsletter-area .newsletter input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    height: 100%;
+  }
+}
