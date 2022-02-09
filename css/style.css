@@ -248,6 +248,45 @@ label {
 /* Slider */
 .slider-area {
 	background: #f9fbfc;
+	position: relative;
+}
+.shape-slider .shape {
+	position: absolute;
+}
+.shape-slider .shape1 {
+	left: 15%;
+	top: 10%;
+  animation: simple-move 2s 2s linear infinite alternate;
+}
+.shape-slider .shape2 {
+	left: 3%;
+	top: 50%;
+  animation: simple-move 2s 2s linear infinite alternate;
+}
+.shape-slider .shape3 {
+	left: 20%;
+	bottom: 20%;
+  animation: simple-move 2s 2s linear infinite alternate;
+}
+.shape-slider .shape4 {
+	left: 40%;
+	top: 11%;
+  animation: simple-move 2s 2s linear infinite alternate;
+}
+.shape-slider .shape5 {
+	right: 5%;
+	top: 10%;
+  animation: simple-move 2s 2s linear infinite alternate;
+}
+.shape-slider .shape6 {
+	right: 15%;
+	bottom: 11%;
+  animation: simple-move 2s 2s linear infinite alternate;
+}
+@keyframes simple-move {
+  100% {
+    transform: translate(0px, 50px);
+  }
 }
 .single-slider {
 	min-height: 700px;
